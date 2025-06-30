@@ -1,0 +1,56 @@
+{
+ "login":{
+  "accountBtn": "[id='menu-item-1237'] a[class='menu-link']",
+  "emailField": "#username",
+  "passwordField": "#password",
+  "loginBtn": "button[name='login']",
+  "loginMessage": ".woocommerce-MyAccount-content",
+  "UnsuccessfulLoginMessage": ".woocommerce-error"
+ },
+
+ "signup":{
+    "accountBtn": "[id='menu-item-1237'] a[class='menu-link']",
+    "usernameField": "#reg_username",
+    "emailField": "#reg_email",
+    "passwordField": "#reg_password",
+    "registerBtn": "button[name='register']",
+    "signupMessage": ".woocommerce-MyAccount-content",
+    "invalidSignupMessage": "div[id='content'] li:nth-child(1)"
+ },
+
+ "store":{
+   "storeBtn": "li[id='menu-item-1227'] a[class='menu-link']",
+   "searchField": "#woocommerce-product-search-field-0",
+   "searchBtn": "button[value='Search']",
+   "productTitle": ".product_title.entry-title",
+   "productDescription": "div[class='woocommerce-product-details__short-description'] p",
+   "categoryFilter": "#product_cat",
+   "categoryTitle": ".woocommerce-products-header__title.page-title",
+   "sortingDropdown": "select[name='orderby']"
+ },
+
+ "cart":{
+   "storeBtn": "li[id='menu-item-1227'] a[class='menu-link']",
+   "firstProduct": "a[aria-label='Add “Anchor Bracelet” to your cart']",
+   "secondProduct": "a[aria-label='Add “Basic Blue Jeans” to your cart']",
+   "cartCount": "div[class='site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container'] span[class='count']",
+   "removeCartBtn": "a[aria-label='Remove this item']",
+   "checkoutBtn": ".checkout-button.button.alt.wc-forward",
+   "firstNameField": "#billing_first_name",
+   "lastNameField": "#billing_last_name",
+   "addressField": "#billing_address_1",
+   "cityField": "#billing_city",
+   "stateField": "#select2-billing_state-container",
+   "countryDropdown": "#select2-billing_country-container",
+   "searchCountryField": "input[role='combobox']",
+   "emailField": "#billing_email",
+   "placeOrderBtn": "#place_order",
+   "orderConfirmation": ".woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received"
+},
+"orderManagement":{
+   "accountBtn": "[id='menu-item-1237'] a[class='menu-link']",
+   "ordersBtn": "li[class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--orders'] a",
+   "viewOrderBtn": "tbody tr:nth-child(1) td:nth-child(5) a:nth-child(1)",
+   "orderDetails": ".woocommerce-order-details__title"
+ }
+ }
